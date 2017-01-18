@@ -68,7 +68,6 @@ BigNumber BigNumber::operator+(const BigNumber& bigNumber)
 BigNumber BigNumber::operator*(const BigNumber& bigNumber)
 {
     BigNumber n;
-    // 01234
     n.digits.insert(n.digits.begin()+1, this->digits.begin(), this->digits.end());
 
     int offset=0;

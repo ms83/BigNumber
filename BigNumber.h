@@ -17,8 +17,6 @@ class BigNumber {
         BigNumber operator*(const BigNumber&);
         friend ostream& operator<<(ostream& stream, const BigNumber&);
         string str();
-        static void test_operator_plus();
-        static void test_operator_mul();
     private:
         vector<int> digits;
 };
